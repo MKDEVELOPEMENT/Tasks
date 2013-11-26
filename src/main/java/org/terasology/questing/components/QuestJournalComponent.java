@@ -17,9 +17,9 @@
 package org.terasology.questing.components;
 
 import org.terasology.entitySystem.Component;
-import org.terasology.network.Replicate;
 
 public class QuestJournalComponent implements Component {
-    @Replicate
+
     public String journalName;
+	
 }

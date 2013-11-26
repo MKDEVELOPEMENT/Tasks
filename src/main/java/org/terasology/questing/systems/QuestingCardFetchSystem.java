@@ -35,7 +35,7 @@ import org.terasology.questing.components.QuestingCardFetchComponent;
 import org.terasology.questing.gui.UIScreenQuest;
 import org.terasology.questing.utils.ModIcons;
 
-@RegisterSystem(RegisterMode.REMOTE_CLIENT)
+@RegisterSystem(RegisterMode.AUTHORITY)
 public class QuestingCardFetchSystem implements ComponentSystem {
     private static final Logger logger = LoggerFactory.getLogger(QuestingCardFetchSystem.class);
 

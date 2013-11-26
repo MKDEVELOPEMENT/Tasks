@@ -36,7 +36,7 @@ import java.util.List;
 /**
  * This class is used for the quest beacons, to see where
  */
-@RegisterSystem(RegisterMode.REMOTE_CLIENT)
+@RegisterSystem(RegisterMode.AUTHORITY)
 public class QuestBeaconSystem implements ComponentSystem {
 
     @Override
